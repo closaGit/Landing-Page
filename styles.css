@@ -10,7 +10,7 @@ body {
 
 .header-big {
     background-color: #1F2937;
-    border:solid 1px blue;
+   /*  border:solid 1px blue; */
 }
 
 .header-small {
@@ -129,6 +129,18 @@ a {
     color: #e5e7eb;
 }
 
+.left-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+
+.left-content > .button {
+    margin-top:50px;
+   
+}
+
 .info > p {
     font-size:36px;
     font-weight:bold;
@@ -203,7 +215,7 @@ a {
 
 
 .button {
-    border: 1px green solid;
+    /* border: 1px green solid; */
     
     display:flex;
     align-items: center;
@@ -216,6 +228,8 @@ a {
     width:90px;
     color: white;
     text-align: center;
+    font-size:20px;
+    align-self: flex-end;
 }
 
 footer {
